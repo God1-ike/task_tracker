@@ -1,0 +1,21 @@
+TASK TRACKER
+
+SSH:
+  git@github.com:God1-ike/task_tracker.git
+
+Используется процесс разработки, приближенный к git-flow.
+
+== Для работы нужно установить следующее ПО:
+
+  1) Docker version 19.03.13 
+  2) docker-compose version 1.27.4
+
+Следует начинать с ветки *develop*.
+
+== Подготовка рабочего окружения
+
+  make docker-setup
+
+== Для открытия рабочего окружения  
+
+  make docker-bash
